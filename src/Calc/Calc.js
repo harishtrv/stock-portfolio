@@ -15,8 +15,10 @@ const Calc = () => {
     <div className={styles.center}>
       <div className={styles.calc1}>
         <form className={styles.fields} onSubmit={calculate}>
-          <input type='number' placeholder='Max Price' required></input><br />
-          <input type='number' placeholder='Current Price' required ></input><br />
+        <label>Highest Stock's Price(Rs) :</label>
+          <input type='number' placeholder='Enter max price' required></input><br />
+          <label>Current Price of Stock(Rs) :</label>
+          <input type='number' placeholder='Enter current price' required ></input><br />
           <button >Calculate</button>
         </form>
         <div>

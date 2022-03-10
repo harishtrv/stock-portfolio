@@ -27,10 +27,14 @@ const Sip = () => {
     <div className={styles.center}>
       <div className={styles.calc1}>
         <form className={styles.fields} onSubmit={calculate}>
-          <input type='number' placeholder='Lumpsum amount(Rs)' required></input><br />
-          <input type='number' placeholder='Monthly SIP(Rs)' required></input><br />
-          <input type='number' placeholder='Years of Investment' required ></input><br />
-          <input type='number' placeholder='Expected Returns(pa)' required ></input><br />
+          <label>Lumpsum amount(Rs) :</label>
+          <input type='number' placeholder='Enter Lumpsum' required></input><br />
+          <label>Monthly SIP(Rs) :</label>
+          <input type='number' placeholder='Enter SIP' required></input><br />
+          <label>Years of Investment :</label>
+          <input type='number' placeholder='Enter Term' required ></input><br />
+          <label>Expected Returns(pa) :</label>
+          <input type='number' placeholder='Enter Rate' required ></input><br />
           <button >Calculate</button>
         </form>
         <div>

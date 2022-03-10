@@ -30,4 +30,17 @@ button{
   background: #fee;
   padding: 5px;
   border-radius: 8px;
+  margin-top: 12px;
+}
+::placeholder { 
+  color: white;
+  opacity: 0.9; 
+}
+label{
+  padding: 8px 8px 2px 8px;
+}
+input:focus {
+  outline: none !important;
+  border:none;
+  box-shadow: 0 0 10px rgb(170, 170, 170);
 }
